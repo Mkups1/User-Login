@@ -3,7 +3,18 @@ html{
 }
 body{
     background:white;
-    margin: 100px 100px;
+    margin: 50px auto;
+    padding: 20px 100px;
     border-radius: 25px;
-
+    width:300px;
+}
+button{
+    width: 258px;
+    background:aqua;
+}
+#usrname{
+width: 250px;
+}
+#passwrd{
+width:250px;
 }
