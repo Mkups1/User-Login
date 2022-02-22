@@ -7,8 +7,11 @@ document.getElementById("login-btn").addEventListener("click",login);
 // Event function
 function login() {
     // input
-    console.log(username.innerHTML)
-    if (username === "admin"){
+    if (username.value === "admin" && password.value === "1234"){
         alert("Login Successful")
+    } else if (username.value === "admin" && password.value !== "1234" ){
+        alert("Invalid Password")
+    } else if (username.value !== "admin"){
+        alert("Invalid Username")
     }
 }
